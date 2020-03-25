@@ -1,0 +1,33 @@
+NotificationSystemAdapterService:
+    Db:
+        LogsConnString:
+            settings-key: NotificationSystemAdapterService-LogsConnString
+            types:
+                - AzureTableStorage
+    ApiKey:
+        settings-key: NotificationSystemAdapterService-ApiKey
+    ImagesBaseUrl:
+        settings-key: NotificationSystemAdapterService-ImagesBaseUrl
+Constants:
+    TokenSymbol:
+        settings-key: Constant-TokenSymbol
+CustomerProfileService:
+    ServiceUrl:
+        settings-key: CustomerProfileServiceUrl
+SlackNotifications:
+    AzureQueue:
+        ConnectionString:
+            settings-key: SlackNotificationsConnString
+            types:
+                - AzureTableStorage
+        QueueName:
+            settings-key: SlackQueueName
+MonitoringServiceClient:
+    MonitoringServiceUrl:
+        settings-key: MonitoringServiceUrl
+PushNotificationsService:
+    ServiceUrl:
+        settings-key: PushNotificationsServiceUrl
+DictionariesService:
+    ServiceUrl:
+        settings-key: DictionariesServiceUrl
