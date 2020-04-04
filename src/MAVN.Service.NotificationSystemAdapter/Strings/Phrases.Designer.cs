@@ -39,7 +39,7 @@ namespace MAVN.Service.NotificationSystemAdapter.Strings {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Lykke.Service.NotificationSystemAdapter.Strings.Phrases", typeof(Phrases).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MAVN.Service.NotificationSystemAdapter.Strings.Phrases", typeof(Phrases).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
