@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Castle.Core.Internal;
 using Lykke.Service.CustomerProfile.Client;
@@ -45,7 +45,7 @@ namespace MAVN.Service.NotificationSystemAdapter.Tests
                 .ReturnsAsync(
                     new CustomerProfileResponse
                     {
-                        Profile = new CustomerProfile.Client.Models.Responses.CustomerProfile
+                        Profile = new CustomerProfile
                         {
                             FirstName = "test", LastName = "test", Email = "test", PhoneNumber = "test"
                         }
