@@ -1,8 +1,8 @@
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 using Lykke.Sdk.Settings;
-using Lykke.Service.CustomerProfile.Client;
-using Lykke.Service.Dictionaries.Client;
-using Lykke.Service.PushNotifications.Client;
+using MAVN.Service.CustomerProfile.Client;
+using MAVN.Service.Dictionaries.Client;
+using MAVN.Service.PushNotifications.Client;
 
 namespace MAVN.Service.NotificationSystemAdapter.Settings
 {

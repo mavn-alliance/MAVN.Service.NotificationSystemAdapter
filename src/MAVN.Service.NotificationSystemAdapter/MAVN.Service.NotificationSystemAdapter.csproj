@@ -21,8 +21,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Falcon.Service.PushNotifications.Client" Version="2.0.0" />
-    <PackageReference Include="Falcon.Service.Sessions.Client" Version="4.0.0" />
     <PackageReference Include="Lykke.Sdk" Version="5.17.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
