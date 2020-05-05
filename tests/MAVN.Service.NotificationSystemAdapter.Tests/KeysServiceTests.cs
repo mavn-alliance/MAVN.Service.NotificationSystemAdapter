@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Castle.Core.Internal;
-using Lykke.Service.CustomerProfile.Client;
-using Lykke.Service.CustomerProfile.Client.Models.Responses;
-using Lykke.Service.Dictionaries.Client;
-using Lykke.Service.Dictionaries.Client.Models.Notifications;
+using MAVN.Service.CustomerProfile.Client;
+using MAVN.Service.CustomerProfile.Client.Models.Responses;
+using MAVN.Service.Dictionaries.Client;
+using MAVN.Service.Dictionaries.Client.Models.Notifications;
 using MAVN.Service.NotificationSystemAdapter.Domain.Services;
 using MAVN.Service.NotificationSystemAdapter.DomainServices;
-using Lykke.Service.PushNotifications.Client;
-using Lykke.Service.PushNotifications.Client.Models.Responses;
+using MAVN.Service.PushNotifications.Client;
+using MAVN.Service.PushNotifications.Client.Models.Responses;
 using Moq;
 using Newtonsoft.Json;
 using Xunit;
@@ -45,7 +45,7 @@ namespace MAVN.Service.NotificationSystemAdapter.Tests
                 .ReturnsAsync(
                     new CustomerProfileResponse
                     {
-                        Profile = new CustomerProfile
+                        Profile = new CustomerProfile.Client.Models.Responses.CustomerProfile
                         {
                             FirstName = "test", LastName = "test", Email = "test", PhoneNumber = "test"
                         }

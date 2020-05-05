@@ -1,11 +1,11 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Lykke.Service.CustomerProfile.Client;
-using Lykke.Service.Dictionaries.Client;
+using MAVN.Service.CustomerProfile.Client;
+using MAVN.Service.Dictionaries.Client;
 using MAVN.Service.NotificationSystemAdapter.Domain.Services;
-using Lykke.Service.PushNotifications.Client;
+using MAVN.Service.PushNotifications.Client;
 using Newtonsoft.Json;
 
 namespace MAVN.Service.NotificationSystemAdapter.DomainServices

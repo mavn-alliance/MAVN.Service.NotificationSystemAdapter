@@ -1,11 +1,11 @@
-using Autofac;
+﻿using Autofac;
 using JetBrains.Annotations;
-using Lykke.Service.CustomerProfile.Client;
-using Lykke.Service.Dictionaries.Client;
+using MAVN.Service.CustomerProfile.Client;
+using MAVN.Service.Dictionaries.Client;
 using MAVN.Service.NotificationSystemAdapter.Infrastructure;
 using MAVN.Service.NotificationSystemAdapter.Infrastructure.Authentication;
 using MAVN.Service.NotificationSystemAdapter.Settings;
-using Lykke.Service.PushNotifications.Client;
+using MAVN.Service.PushNotifications.Client;
 using Lykke.SettingsReader;
 
 namespace MAVN.Service.NotificationSystemAdapter.Modules
